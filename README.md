@@ -18,8 +18,7 @@ The system architecture involves:
   
   ---
 ## System Workflow:
-mermaid
-```
+```mermaid
 graph LR
   A[ESP32-CAM] -->|Capture Frames| B[Server]
   B -->|Process & Broadcast| C[WebRTC Client]
